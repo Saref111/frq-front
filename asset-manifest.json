@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/freq-front/static/css/main.7acaea2f.css",
-    "main.js": "/freq-front/static/js/main.760a9169.js",
+    "main.js": "/freq-front/static/js/main.7f751689.js",
     "index.html": "/freq-front/index.html",
     "main.7acaea2f.css.map": "/freq-front/static/css/main.7acaea2f.css.map",
-    "main.760a9169.js.map": "/freq-front/static/js/main.760a9169.js.map"
+    "main.7f751689.js.map": "/freq-front/static/js/main.7f751689.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.760a9169.js"
+    "static/js/main.7f751689.js"
   ]
 }
