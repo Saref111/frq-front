@@ -8,11 +8,14 @@ const socket = io('https://frq-back.onrender.com:8080');
 
 export const App = () => {
   const [frequencies, setFrequencies] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const userId = getId();
 
   useEffect(() => {
+    setIsLoading(true);
     socket.on('frequencies', (data) => {
       setFrequencies(data);
+      setIsLoading(false);
     });
 
     return () => {
@@ -31,6 +34,7 @@ export const App = () => {
   return (
     <div>
       <h1>Frequency List</h1>
+      {isLoading && <p>Loading, please wait...</p>}
       <FrequencyList
         frequencies={frequencies}
         onReserve={handleReserve}
