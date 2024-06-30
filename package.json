@@ -2,7 +2,7 @@
   "name": "freq-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/freq-front/",
+  "homepage": "https://saref111.github.io/freq-front/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
