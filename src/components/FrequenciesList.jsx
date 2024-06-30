@@ -1,5 +1,4 @@
 export const FrequencyList = ({ frequencies, onReserve, onRelease, userId }) => {
-    console.log(userId);
     return (
         <ul>
           {frequencies.map(freq => (

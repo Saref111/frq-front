@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 
 import { FrequencyList } from './FrequenciesList';
 
-const socket = io('https://frq-back.onrender.com:8080');
+const socket = io('https://frq-back.onrender.com');
 
 export const App = () => {
   const [frequencies, setFrequencies] = useState([]);
